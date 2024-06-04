@@ -1,7 +1,7 @@
 import app from "./app.js";
 import mongoose from "mongoose";
 import socketHandler from "./utils/socketHandler.js";
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 443;
 console.log(PORT);
 import { Server } from "socket.io";
 
